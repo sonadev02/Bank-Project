@@ -1,0 +1,173 @@
+
+  
+  .container {
+    margin: 50px;
+    /* overflow: scroll; */
+  }
+  
+  
+  
+  .box-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;; 
+    height: 70%;
+    width: 75%;
+    /* padding-bottom: 8%; */
+    position: absolute;
+    top: 23%;
+    right: 15%;
+    /* bottom: 18%; */
+    display: flex;
+    overflow-y: scroll;
+  }
+  .dashboard{
+    /* position: fixed; */
+  }
+        
+
+  
+   .tble {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    height: 30%;
+    width: 60%;
+    padding-right: 30px;
+    margin-left: 20px;
+    top: 50px;
+  } 
+  
+   
+   
+
+
+  .dashbrd1{
+    border-left: 4px solid black;
+    height: 8vh;
+    margin-top: 2%;
+    
+  }
+  .dashbrd1 h1{
+    margin-top: 0%;
+  }
+  .create-btn {
+    border-radius: 2px;
+    border: none;
+    width: 7%;
+    height: 30px;
+    color:white;
+    background-color: rgb(66, 128, 130);
+    
+    position: absolute;
+    right: 15%;
+    bottom:78%;
+    z-index: 1;
+   
+  }
+
+
+  .create-btn a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .search {
+    position: absolute;
+    right: 240px;
+    top: 30%;
+  }
+  .id{
+    text-decoration: underline;
+    color: cadetblue;
+  }
+  
+  .table-container {
+    /* width: 100%; */
+    width: 71%;
+    height: 46%;
+    overflow-x: auto;
+    margin-top: 3px;
+    position: absolute;
+    right: 17.3%;
+    top: 39%;
+bottom: 11%;
+    display: flex;
+    
+  }
+  .dashbrd1{
+    position: absolute;
+    left: 10%;
+    top: 11%;
+    bottom: 12%;
+  }
+  
+   .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid rgb(244, 237, 237);
+    background-color: white;
+    height: 30%;
+  } 
+  
+  .table th {
+    background-color:white;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: white;
+    
+  } 
+  
+  .th {
+    border-bottom: 2px solid rgb(240, 236, 236);
+  } 
+ 
+  
+   .main-btn1 {
+    width: 20%;
+    padding: 6px;
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 69%;
+    right:6% ;
+    margin-right:62%;
+   
+    
+  }
+ 
+  
+  .btn1 {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(66, 128, 130);
+    border-radius: 3px;
+    border: none;
+    margin-right: 5px;
+  }
+  
+  .btn2 {
+    width: 90px;
+    height: 30px;
+    color: rgb(66, 128, 130);
+    background-color: white;
+    border: none;
+    margin-right: 5px;
+  }
+  
+  .tr {
+    border: 2px solid black;
+    border-right: 1px solid rgb(114, 112, 112);
+  }
+  
+  .tbody {
+    text-align: center;
+  }
+  .btn1:hover{
+background-color: white;
+color: cadetblue;
+  }
+.btn1:hover +.btn2{
+    background-color: cadetblue;
+    color: white;
+  }
+
+  

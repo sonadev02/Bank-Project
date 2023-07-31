@@ -1,0 +1,12 @@
+.ftr-h3{
+    display: flex;
+    justify-content:space-between;
+    /* transform: translate(0); */
+    width: 100%;
+    /* transform: translate(0px,80px); */
+    background-color: rgb(66, 128, 130);;
+     position: fixed; 
+    bottom: 0;
+    color: white;
+    padding-top: 10px;
+}

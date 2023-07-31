@@ -1,0 +1,26 @@
+.Nav{
+    background-color: rgb(66, 128, 130);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 80px;
+    z-index: 1;
+   
+    
+    position: absolute;
+    top: 0;
+    position: fixed;
+}
+ .logo{
+  margin-right: 20px;
+  height: 8vh;
+  width: 5%;
+  transform: translate(0px,10px);
+
+ 
+} 
+
+h1{
+    margin-left: 10px;
+}

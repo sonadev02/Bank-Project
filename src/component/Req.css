@@ -1,0 +1,210 @@
+.requestform {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3.5rem;
+  margin-top: 10px;
+  /* transform: translate(0px,30px); */
+}
+.linkdash{
+  margin-top: 1%;
+  margin-right: 2%;
+}
+.head h2 {
+  border-left: 3px solid black;
+  /* margin-right:5%; */
+  /* margin-top:22%; */
+}
+.head{
+  transform: translate(0px,22px);
+}
+.request {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 4% auto 6%;
+  /* margin-top: 6%; */
+  padding-top: 2%;
+  /* gap: 2rem; */
+}
+.form_data {
+  box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+  transform: translate(0px,10%);
+  margin: auto;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  padding-bottom: 60%;
+    margin:20px, auto, 10px auto, ;
+  padding:30px;
+}
+.form_input {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight:normal;
+  margin-bottom: 10px;
+}
+.input-select{
+  height: 7vh;
+  width: 100%;
+
+}
+.form_input .inputs {
+  padding: 5px;
+  width: 450px;
+  height: 30px;
+}
+.form_data {
+  display: flex;
+  align-items: center;
+}
+table {
+  width: 100%;
+  /* margin-top: 30%; */
+}
+th, td {
+  border: 1px solid white;
+  padding: 8px; 
+   text-align: left;
+} 
+th {
+  background-color: white;
+}
+.form-questions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 17rem;
+  margin-left: 8px;
+}
+.questions p {
+  width: 640px;
+}
+.upload_data {
+  border: 1px solid blue;
+  width: 100%;
+  height: 70%;
+}
+.choose-options {
+  width: 30%;
+}
+.upload_data p {
+  margin-left: 100px;
+
+}
+.upload_box_data {
+  display: flex;
+
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+.uploadbutton button{
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+  border: none;
+  
+  width: 90px;
+  height: 30px;
+}
+.up-ul{
+  color: red;
+   margin-left:7%;
+  list-style:circle;
+}
+.todo-list ul{
+  color: blue;
+}
+.next_data {
+      box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      transform: translate(0px,70px);
+    }
+
+    .form_date {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form_date input[type="date"],
+    .form_date input[type="number"],
+    .form_date textarea,
+    .form_date input[type="text"],
+    .form_date input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid rgb(236, 221, 221);
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .form_date input[type="file"] {
+      padding: 6px;
+    }
+    .add_button {
+      background-color: white;
+      color: rgb(239, 239, 244);
+      border: 2px solid blue;
+      background-color: blue;
+      width: 14%;
+      height: 26%;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    transform: translate(0px,33px);
+    }
+    .final{
+      height: 20vh;
+    }
+.table-req {
+  width: 70%;
+  margin-top: 20px;
+}
+.h2-req {
+  text-align: center;
+  font-weight: lighter;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+thead th {
+  background-color:white;
+  border: 1px solid rgb(149, 147, 147);
+  text-align: left;
+  padding: 8px;
+}
+tbody td {
+  border: 1px solid grey;
+  text-align: left;
+  padding: 8px;
+}
+.proceed-button {
+  color: white;
+  
+  background-color: blue;
+  padding: 10px 20px;
+  border: none;
+  width:  29vh;
+  height: 26%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+transform: translate(68vh,1vh);
+
+}
+.todo-list ul  {
+  color: rgb(226, 226, 237);
+}
